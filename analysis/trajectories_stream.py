@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
 
-### Here we perform Clustering Analysis and find Markers of each cluster by using Seurat V.3.0.1 R package 
+### Here we perform Pseudotime analysis with STREAM v0.36 [https://doi.org/10.1038/s41467-019-09670-4] [https://github.com/pinellolab/STREAM]
 ### Download counts matrix here: 
-
-
-SINGLE CELL TRAJECTORIES WITH STREAM - THIS VERSION USES THE ALGORITHM 'SE' IN DIMENSION REDUCTION (FASTER THAN MLLE AND PRESERVES THE STRUCTURE)
-
-##### THIS VERSION USES THE NORMALIZED DATA FROM SEURAT (LOG NORMALIZED)
 
 
 import matplotlib as mpl
@@ -145,3 +140,5 @@ st.detect_de_genes(adata,root='S1')
 st.plot_de_genes(adata)
 plt.savefig('deg_branches.png', dpi=400)
 plt.close('deg_branches.png')
+
+exit()
