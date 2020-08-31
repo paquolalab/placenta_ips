@@ -1,7 +1,7 @@
 
 
 ### Here we perform Clustering Analysis and find Markers of each cluster by using Seurat V.3.0.1 R package 
-### Download the R object with counts matrix here: '/Rdata/counts.rds'
+### Download the R object with counts matrix here: https://drive.google.com/file/d/1BT1bZSDBy29H5KBF0xzqxjfyJdLqoaeX/view?usp=sharing
 
 library(Seurat)
 options(stringsAsFactors = FALSE)
