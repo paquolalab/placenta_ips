@@ -84,11 +84,4 @@ sc.markers <- sc.markers[sc.markers$p_val_adj < 0.01,]
 # Save table with markers
 write.table(sc.fmarkers, "markers_clusters.tsv", sep='\t', row.names=FALSE)
 
-## Plots 
-
-
-
-
-
-
-
+quit()
